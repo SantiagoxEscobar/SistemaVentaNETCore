@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Proyectos NET\\WSVenta\\WSVenta\\WSVenta.csproj": {}
+    "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WSVenta\\WSVenta\\WSVenta.csproj": {}
   },
   "projects": {
-    "F:\\Proyectos NET\\WSVenta\\WSVenta\\WSVenta.csproj": {
+    "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WSVenta\\WSVenta\\WSVenta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Proyectos NET\\WSVenta\\WSVenta\\WSVenta.csproj",
+        "projectUniqueName": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WSVenta\\WSVenta\\WSVenta.csproj",
         "projectName": "WSVenta",
-        "projectPath": "F:\\Proyectos NET\\WSVenta\\WSVenta\\WSVenta.csproj",
+        "projectPath": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WSVenta\\WSVenta\\WSVenta.csproj",
         "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "F:\\Proyectos NET\\WSVenta\\WSVenta\\obj\\",
+        "outputPath": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WSVenta\\WSVenta\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

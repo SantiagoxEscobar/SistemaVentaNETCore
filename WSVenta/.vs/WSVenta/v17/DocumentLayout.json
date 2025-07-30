@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Proyectos NET\\WSVenta\\",
+  "WorkspaceRootPath": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WSVenta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62BE8F68-E597-48B1-8299-B9B8F419669C}|WSVenta\\WSVenta.csproj|f:\\proyectos net\\wsventa\\wsventa\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62BE8F68-E597-48B1-8299-B9B8F419669C}|WSVenta\\WSVenta.csproj|solutionrelative:wsventa\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62BE8F68-E597-48B1-8299-B9B8F419669C}|WSVenta\\WSVenta.csproj|f:\\proyectos net\\wsventa\\wsventa\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62BE8F68-E597-48B1-8299-B9B8F419669C}|WSVenta\\WSVenta.csproj|f:\\proyectos github\\sistemaventanetcore\\wsventa\\wsventa\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62BE8F68-E597-48B1-8299-B9B8F419669C}|WSVenta\\WSVenta.csproj|solutionrelative:wsventa\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62BE8F68-E597-48B1-8299-B9B8F419669C}|WSVenta\\WSVenta.csproj|f:\\proyectos net\\wsventa\\wsventa\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62BE8F68-E597-48B1-8299-B9B8F419669C}|WSVenta\\WSVenta.csproj|solutionrelative:wsventa\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62BE8F68-E597-48B1-8299-B9B8F419669C}|WSVenta\\WSVenta.csproj|f:\\proyectos github\\sistemaventanetcore\\wsventa\\wsventa\\models\\request\\clientrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62BE8F68-E597-48B1-8299-B9B8F419669C}|WSVenta\\WSVenta.csproj|solutionrelative:wsventa\\models\\request\\clientrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,40 +26,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddressController.cs",
-              "DocumentMoniker": "F:\\Proyectos NET\\WSVenta\\WSVenta\\Controllers\\AddressController.cs",
-              "RelativeDocumentMoniker": "WSVenta\\Controllers\\AddressController.cs",
-              "ToolTip": "F:\\Proyectos NET\\WSVenta\\WSVenta\\Controllers\\AddressController.cs",
-              "RelativeToolTip": "WSVenta\\Controllers\\AddressController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ClientRequest.cs",
+              "DocumentMoniker": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WSVenta\\WSVenta\\Models\\Request\\ClientRequest.cs",
+              "RelativeDocumentMoniker": "WSVenta\\Models\\Request\\ClientRequest.cs",
+              "ToolTip": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WSVenta\\WSVenta\\Models\\Request\\ClientRequest.cs",
+              "RelativeToolTip": "WSVenta\\Models\\Request\\ClientRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T06:45:51.735Z",
+              "WhenOpened": "2025-07-29T20:05:18.687Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "F:\\Proyectos NET\\WSVenta\\WSVenta\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "WSVenta\\Controllers\\UserController.cs",
-              "ToolTip": "F:\\Proyectos NET\\WSVenta\\WSVenta\\Controllers\\UserController.cs",
-              "RelativeToolTip": "WSVenta\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T06:42:39.38Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ClientController.cs",
-              "DocumentMoniker": "F:\\Proyectos NET\\WSVenta\\WSVenta\\Controllers\\ClientController.cs",
+              "DocumentMoniker": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WSVenta\\WSVenta\\Controllers\\ClientController.cs",
               "RelativeDocumentMoniker": "WSVenta\\Controllers\\ClientController.cs",
-              "ToolTip": "F:\\Proyectos NET\\WSVenta\\WSVenta\\Controllers\\ClientController.cs",
+              "ToolTip": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WSVenta\\WSVenta\\Controllers\\ClientController.cs",
               "RelativeToolTip": "WSVenta\\Controllers\\ClientController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwD4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T05:07:49.834Z"
+              "WhenOpened": "2025-07-29T05:07:49.834Z",
+              "EditorCaption": ""
             }
           ]
         }
