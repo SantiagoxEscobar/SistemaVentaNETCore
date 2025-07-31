@@ -1,6 +1,0 @@
-@WSVenta_HostAddress = http://localhost:5057
-
-GET {{WSVenta_HostAddress}}/api/client
-Accept: application/json
-
-###

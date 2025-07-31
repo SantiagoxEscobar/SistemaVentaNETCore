@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "WS_SistemaVenta.Controllers.ClientController",
+    "Method": "GetClients",
+    "RelativePath": "api/Client",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WS_SistemaVenta.Controllers.ClientController",
+    "Method": "AddClient",
+    "RelativePath": "api/Client",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "oModel",
+        "Type": "WS_SistemaVenta.Models.Request.ClientRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
