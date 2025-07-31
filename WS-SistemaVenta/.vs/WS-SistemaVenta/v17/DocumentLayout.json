@@ -1,30 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Proyectos NET\\WS-SistemaVenta\\",
+  "WorkspaceRootPath": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WS-SistemaVenta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04C522BF-26EA-4D66-A033-6ACCDBCF4873}|WS-SistemaVenta.csproj|f:\\proyectos net\\ws-sistemaventa\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04C522BF-26EA-4D66-A033-6ACCDBCF4873}|WS-SistemaVenta.csproj|f:\\proyectos github\\sistemaventanetcore\\ws-sistemaventa\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04C522BF-26EA-4D66-A033-6ACCDBCF4873}|WS-SistemaVenta.csproj|solutionrelative:controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Proyectos NET\\WS-SistemaVenta\\Models\\SistemaVentasContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\SistemaVentasContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04C522BF-26EA-4D66-A033-6ACCDBCF4873}|WS-SistemaVenta.csproj|f:\\proyectos github\\sistemaventanetcore\\ws-sistemaventa\\models\\sistemaventascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04C522BF-26EA-4D66-A033-6ACCDBCF4873}|WS-SistemaVenta.csproj|solutionrelative:models\\sistemaventascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04C522BF-26EA-4D66-A033-6ACCDBCF4873}|WS-SistemaVenta.csproj|f:\\proyectos net\\ws-sistemaventa\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04C522BF-26EA-4D66-A033-6ACCDBCF4873}|WS-SistemaVenta.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04C522BF-26EA-4D66-A033-6ACCDBCF4873}|WS-SistemaVenta.csproj|f:\\proyectos net\\ws-sistemaventa\\models\\response\\reply.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04C522BF-26EA-4D66-A033-6ACCDBCF4873}|WS-SistemaVenta.csproj|solutionrelative:models\\response\\reply.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04C522BF-26EA-4D66-A033-6ACCDBCF4873}|WS-SistemaVenta.csproj|f:\\proyectos net\\ws-sistemaventa\\models\\request\\clientrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04C522BF-26EA-4D66-A033-6ACCDBCF4873}|WS-SistemaVenta.csproj|f:\\proyectos github\\sistemaventanetcore\\ws-sistemaventa\\models\\request\\clientrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04C522BF-26EA-4D66-A033-6ACCDBCF4873}|WS-SistemaVenta.csproj|solutionrelative:models\\request\\clientrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04C522BF-26EA-4D66-A033-6ACCDBCF4873}|WS-SistemaVenta.csproj|f:\\proyectos net\\ws-sistemaventa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04C522BF-26EA-4D66-A033-6ACCDBCF4873}|WS-SistemaVenta.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04C522BF-26EA-4D66-A033-6ACCDBCF4873}|WS-SistemaVenta.csproj|f:\\proyectos github\\sistemaventanetcore\\ws-sistemaventa\\models\\response\\reply.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04C522BF-26EA-4D66-A033-6ACCDBCF4873}|WS-SistemaVenta.csproj|solutionrelative:models\\response\\reply.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,26 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Reply.cs",
-              "DocumentMoniker": "F:\\Proyectos NET\\WS-SistemaVenta\\Models\\Response\\Reply.cs",
-              "RelativeDocumentMoniker": "Models\\Response\\Reply.cs",
-              "ToolTip": "F:\\Proyectos NET\\WS-SistemaVenta\\Models\\Response\\Reply.cs",
-              "RelativeToolTip": "Models\\Response\\Reply.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T20:51:53.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ClientController.cs",
-              "DocumentMoniker": "F:\\Proyectos NET\\WS-SistemaVenta\\Controllers\\ClientController.cs",
+              "DocumentMoniker": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WS-SistemaVenta\\Controllers\\ClientController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClientController.cs",
-              "ToolTip": "F:\\Proyectos NET\\WS-SistemaVenta\\Controllers\\ClientController.cs",
+              "ToolTip": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WS-SistemaVenta\\Controllers\\ClientController.cs",
               "RelativeToolTip": "Controllers\\ClientController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwBgAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAwwGwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T20:44:22.423Z",
               "EditorCaption": ""
@@ -70,11 +49,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "SistemaVentasContext.cs",
-              "DocumentMoniker": "F:\\Proyectos NET\\WS-SistemaVenta\\Models\\SistemaVentasContext.cs",
+              "DocumentMoniker": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WS-SistemaVenta\\Models\\SistemaVentasContext.cs",
               "RelativeDocumentMoniker": "Models\\SistemaVentasContext.cs",
-              "ToolTip": "F:\\Proyectos NET\\WS-SistemaVenta\\Models\\SistemaVentasContext.cs",
+              "ToolTip": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WS-SistemaVenta\\Models\\SistemaVentasContext.cs",
               "RelativeToolTip": "Models\\SistemaVentasContext.cs",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAAAMYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAANUAAAAAAAAAAAAAAMYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T20:42:38.591Z",
               "EditorCaption": ""
@@ -82,40 +61,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Client.cs",
-              "DocumentMoniker": "F:\\Proyectos NET\\WS-SistemaVenta\\Models\\Client.cs",
-              "RelativeDocumentMoniker": "Models\\Client.cs",
-              "ToolTip": "F:\\Proyectos NET\\WS-SistemaVenta\\Models\\Client.cs",
-              "RelativeToolTip": "Models\\Client.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCkAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T21:04:36.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "ClientRequest.cs",
-              "DocumentMoniker": "F:\\Proyectos NET\\WS-SistemaVenta\\Models\\Request\\ClientRequest.cs",
+              "DocumentMoniker": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WS-SistemaVenta\\Models\\Request\\ClientRequest.cs",
               "RelativeDocumentMoniker": "Models\\Request\\ClientRequest.cs",
-              "ToolTip": "F:\\Proyectos NET\\WS-SistemaVenta\\Models\\Request\\ClientRequest.cs",
+              "ToolTip": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WS-SistemaVenta\\Models\\Request\\ClientRequest.cs",
               "RelativeToolTip": "Models\\Request\\ClientRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T20:57:19.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Proyectos NET\\WS-SistemaVenta\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "F:\\Proyectos NET\\WS-SistemaVenta\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Reply.cs",
+              "DocumentMoniker": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WS-SistemaVenta\\Models\\Response\\Reply.cs",
+              "RelativeDocumentMoniker": "Models\\Response\\Reply.cs",
+              "ToolTip": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WS-SistemaVenta\\Models\\Response\\Reply.cs",
+              "RelativeToolTip": "Models\\Response\\Reply.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T20:32:56.285Z",
+              "WhenOpened": "2025-07-31T20:51:53.968Z",
               "EditorCaption": ""
             }
           ]

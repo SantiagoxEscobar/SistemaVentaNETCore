@@ -4686,11 +4686,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Proyectos NET\\WS-SistemaVenta\\WS-SistemaVenta.csproj",
+      "projectUniqueName": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WS-SistemaVenta\\WS-SistemaVenta.csproj",
       "projectName": "WS-SistemaVenta",
-      "projectPath": "F:\\Proyectos NET\\WS-SistemaVenta\\WS-SistemaVenta.csproj",
+      "projectPath": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WS-SistemaVenta\\WS-SistemaVenta.csproj",
       "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-      "outputPath": "F:\\Proyectos NET\\WS-SistemaVenta\\obj\\",
+      "outputPath": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WS-SistemaVenta\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -24,5 +24,37 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WS_SistemaVenta.Controllers.ClientController",
+    "Method": "UpdateClient",
+    "RelativePath": "api/Client",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "oModel",
+        "Type": "WS_SistemaVenta.Models.Request.ClientRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WS_SistemaVenta.Controllers.ClientController",
+    "Method": "DeleteClient",
+    "RelativePath": "api/Client",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

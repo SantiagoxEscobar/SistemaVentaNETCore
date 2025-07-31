@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xv8O11z1xcM=",
+  "dgSpecHash": "yt+zD//s2sw=",
   "success": true,
-  "projectFilePath": "F:\\Proyectos NET\\WS-SistemaVenta\\WS-SistemaVenta.csproj",
+  "projectFilePath": "F:\\Proyectos GitHub\\SistemaVentaNETCore\\WS-SistemaVenta\\WS-SistemaVenta.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\santi\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\santi\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

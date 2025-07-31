@@ -1,6 +1,23 @@
 @WS_SistemaVenta_HostAddress = http://localhost:5108
 
-GET {{WS_SistemaVenta_HostAddress}}/weatherforecast/
+### Obtener todos los clientes
+GET {{WS_SistemaVenta_HostAddress}}/api/Client
 Accept: application/json
 
 ###
+
+### Agregar un nuevo cliente
+POST {{WS_SistemaVenta_HostAddress}}/api/Client
+Content-Type: application/json
+
+{
+  "userId": 3,
+  "firstName": "Juan",
+  "lastName": "Pérez",
+  "email": "juan.perez@ejemplo.com",
+  "phoneCode": "+34",
+  "phoneNumber": "600123456",
+  "birthDate": "1990-05-15",
+  "documentType": "DNI",
+  "documentNumber": "12345678A"
+}
