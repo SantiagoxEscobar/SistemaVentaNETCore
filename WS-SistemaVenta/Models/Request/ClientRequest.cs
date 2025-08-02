@@ -12,5 +12,8 @@
         public DateOnly? BirthDate { get; set; }
         public string? DocumentType { get; set; }
         public string? DocumentNumber { get; set; }
+        public bool IsActive { get; set;  }
+        public DateTime CreatedAt { get; set; }
+        public DateTime LastUpdatedAt { get; set; }
     }
 }

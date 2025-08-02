@@ -12,6 +12,7 @@ namespace WS_SistemaVenta
             {
                 options.AddPolicy(name: CorsPolicyName, policy =>
                 {
+                    policy.AllowAnyHeader();
                     policy.AllowAnyOrigin();
                 });
             });

@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 using WS_SistemaVenta.Models;
 using WS_SistemaVenta.Models.Request;
 using WS_SistemaVenta.Models.Response;
@@ -9,17 +8,17 @@ namespace WS_SistemaVenta.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ClientController : ControllerBase
+    public class UserController : ControllerBase
     {
         [HttpGet]
-        public IActionResult GetClients()
+        public IActionResult GetUsers()
         {
             Reply oReply = new Reply();
             try
             {
                 using (SistemaVentasContext db = new SistemaVentasContext())
                 {
-                    var lst = db.Clients.OrderByDescending(d=>d.Id).ToList();
+                    var lst = db.Users.OrderByDescending(d => d.Id).ToList();
                     oReply.success = 1;
                     oReply.data = lst;
                 }
@@ -33,25 +32,21 @@ namespace WS_SistemaVenta.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddClient(ClientRequest oModel)
+        public IActionResult AddUser(UserRequest oModel)
         {
             Reply oReply = new Reply();
             try
             {
                 using (SistemaVentasContext db = new SistemaVentasContext())
                 {
-                    Client oClient = new Client();
-                    oClient.IdUser = oModel.IdUser;
-                    oClient.FirstName = oModel.FirstName;
-                    oClient.LastName = oModel.LastName;
-                    oClient.Email = oModel.Email;
-                    oClient.PhoneCode = oModel.PhoneCode;
-                    oClient.PhoneNumber = oModel.PhoneNumber;
-                    oClient.BirthDate = oModel.BirthDate;
-                    oClient.DocumentType = oModel.DocumentType;
-                    oClient.DocumentNumber = oModel.DocumentNumber;
+                    User oUser = new User();
+                    oUser.IdRole = oModel.IdRole;
+                    oUser.Username = oModel.Username;
+                    oUser.PasswordHash = oModel.PasswordHash;
+                    oUser.Salt = oModel.Salt;
+                    oUser.Email = oModel.Email;
 
-                    db.Clients.Add(oClient);
+                    db.Users.Add(oUser);
                     db.SaveChanges();
 
                     oReply.success = 1;
@@ -66,32 +61,27 @@ namespace WS_SistemaVenta.Controllers
         }
 
         [HttpPut]
-        public IActionResult UpdateClient(ClientRequest oModel)
+        public IActionResult UpdateUser(UserRequest oModel)
         {
             Reply oReply = new Reply();
             try
             {
                 using (SistemaVentasContext db = new SistemaVentasContext())
                 {
-                    Client oClient = db.Clients.Find(oModel.Id);
-                    if (oClient == null)
+                    User oUser = db.Users.Find(oModel.Id);
+                    if (oUser == null)
                     {
                         oReply.success = 0;
-                        oReply.message = "Client not found.";
+                        oReply.message = "User not found";
                         return NotFound(oReply);
                     }
-                    oClient.IdUser = oModel.IdUser;
-                    oClient.FirstName = oModel.FirstName;
-                    oClient.LastName = oModel.LastName;
-                    oClient.Email = oModel.Email;
-                    oClient.PhoneCode = oModel.PhoneCode;
-                    oClient.PhoneNumber = oModel.PhoneNumber;
-                    oClient.BirthDate = oModel.BirthDate;
-                    oClient.DocumentType = oModel.DocumentType;
-                    oClient.DocumentNumber = oModel.DocumentNumber;
+                    oUser.IdRole = oModel.IdRole;
+                    oUser.Username = oModel.Username;
+                    oUser.PasswordHash = oModel.PasswordHash;
+                    oUser.Salt = oModel.Salt;
+                    oUser.Email = oModel.Email;
 
-                    db.Entry(oClient).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
-                    db.SaveChanges();
+                    db.Entry(oUser).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
 
                     oReply.success = 1;
                 }
@@ -104,22 +94,22 @@ namespace WS_SistemaVenta.Controllers
             return Ok(oReply);
         }
 
-        [HttpDelete("{Id}")]
-        public IActionResult DeleteClient(int Id)
+        [HttpDelete("{id}")]
+        public IActionResult DeleteUser(int id)
         {
             Reply oReply = new Reply();
             try
             {
                 using (SistemaVentasContext db = new SistemaVentasContext())
                 {
-                    Client oClient = db.Clients.Find(Id);
-                    if (oClient == null)
+                    User oUser = db.Users.Find(id);
+                    if (oUser == null)
                     {
                         oReply.success = 0;
-                        oReply.message = "Client not found.";
+                        oReply.message = "User not found";
                         return NotFound(oReply);
                     }
-                    db.Remove(oClient);
+                    db.Users.Remove(oUser);
                     db.SaveChanges();
 
                     oReply.success = 1;
