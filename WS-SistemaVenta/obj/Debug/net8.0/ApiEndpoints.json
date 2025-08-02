@@ -44,7 +44,7 @@
   {
     "ContainingType": "WS_SistemaVenta.Controllers.ClientController",
     "Method": "DeleteClient",
-    "RelativePath": "api/Client",
+    "RelativePath": "api/Client/{Id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -52,7 +52,7 @@
       {
         "Name": "Id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

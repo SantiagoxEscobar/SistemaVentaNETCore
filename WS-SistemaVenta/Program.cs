@@ -3,11 +3,18 @@ namespace WS_SistemaVenta
 {
     public class Program
     {
+        private static readonly string CorsPolicyName = "MyCors";
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy(name: CorsPolicyName, policy =>
+                {
+                    policy.AllowAnyOrigin();
+                });
+            });
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -25,8 +32,9 @@ namespace WS_SistemaVenta
 
             app.UseHttpsRedirection();
 
-            app.UseAuthorization();
+            app.UseCors(CorsPolicyName);
 
+            app.UseAuthorization();
 
             app.MapControllers();
 

@@ -73,7 +73,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Client/{Id}": {
       "delete": {
         "tags": [
           "Client"
@@ -81,7 +83,8 @@
         "parameters": [
           {
             "name": "Id",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
