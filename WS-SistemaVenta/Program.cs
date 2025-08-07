@@ -14,6 +14,7 @@ namespace WS_SistemaVenta
                 {
                     policy.AllowAnyHeader();
                     policy.AllowAnyOrigin();
+                    policy.AllowAnyMethod();
                 });
             });
 

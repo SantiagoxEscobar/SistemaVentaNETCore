@@ -82,6 +82,7 @@ namespace WS_SistemaVenta.Controllers
                     oUser.Email = oModel.Email;
 
                     db.Entry(oUser).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                    db.SaveChanges();
 
                     oReply.success = 1;
                 }
