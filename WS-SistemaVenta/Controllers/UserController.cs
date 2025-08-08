@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using WS_SistemaVenta.Models;
 using WS_SistemaVenta.Models.Request;
 using WS_SistemaVenta.Models.Response;
+using WS_SistemaVenta.Services;
 
 namespace WS_SistemaVenta.Controllers
 {
@@ -10,6 +11,12 @@ namespace WS_SistemaVenta.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
+        private IUserService _userService;
+        public UserController(IUserService userService)
+        {
+            _userService = userService;
+        }
+
         [HttpGet]
         public IActionResult GetUsers()
         {
@@ -122,6 +129,25 @@ namespace WS_SistemaVenta.Controllers
                 oReply.message = ex.Message + (ex.InnerException != null ? " | " + ex.InnerException.Message : "");
             }
             return Ok(oReply);
+        }
+
+        [HttpPost("login")]
+        public IActionResult Authenticate([FromBody] AuthRequest model)
+        {
+            Reply reply = new Reply();
+            var userResponse = _userService.Auth(model);
+        
+            if (userResponse == null)
+            {
+                reply.success = 0;
+                reply.message = "Invalid email or password.";
+                return BadRequest(reply);
+            }
+
+            reply.success = 1;
+            reply.data = userResponse;
+
+            return Ok(reply);
         }
     }
 }

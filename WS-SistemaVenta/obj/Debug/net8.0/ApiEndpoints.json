@@ -114,5 +114,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WS_SistemaVenta.Controllers.UserController",
+    "Method": "Authenticate",
+    "RelativePath": "api/User/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "WS_SistemaVenta.Models.Request.AuthRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

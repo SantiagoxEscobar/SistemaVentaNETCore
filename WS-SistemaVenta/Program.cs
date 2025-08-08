@@ -1,4 +1,10 @@
 
+using WS_SistemaVenta.Services;
+using WS_SistemaVenta.Models.Common;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+
 namespace WS_SistemaVenta
 {
     public class Program
@@ -19,6 +25,34 @@ namespace WS_SistemaVenta
             });
 
             builder.Services.AddControllers();
+
+            var appSettingsSection = builder.Configuration.GetSection("AppSettings");
+            builder.Services.Configure<AppSettings>(appSettingsSection);
+
+            // JWT
+            var appSettings = appSettingsSection.Get<AppSettings>();
+            var key = Encoding.ASCII.GetBytes(appSettings.Codename);
+
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+                .AddJwtBearer(options =>
+                {
+                    options.RequireHttpsMetadata = false;
+                    options.SaveToken = true;
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(key),
+                        ValidateIssuer = false,
+                        ValidateAudience = false
+                    };
+                });
+
+            builder.Services.AddScoped<IUserService, UserService>();
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -35,6 +69,8 @@ namespace WS_SistemaVenta
             app.UseHttpsRedirection();
 
             app.UseCors(CorsPolicyName);
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

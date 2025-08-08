@@ -190,10 +190,59 @@
           }
         }
       }
+    },
+    "/api/User/login": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AuthRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AuthRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AuthRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
+      "AuthRequest": {
+        "required": [
+          "email",
+          "passwordHash"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "passwordHash": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
       "ClientRequest": {
         "type": "object",
         "properties": {
@@ -263,7 +312,7 @@
             "type": "integer",
             "format": "int32"
           },
-          "username": {
+          "email": {
             "type": "string",
             "nullable": true
           },
@@ -275,7 +324,7 @@
             "type": "string",
             "nullable": true
           },
-          "email": {
+          "username": {
             "type": "string",
             "nullable": true
           }
